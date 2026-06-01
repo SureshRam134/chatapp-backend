@@ -9,7 +9,7 @@ const db = require("./config/DataBase")
 const { sendMessage } = require("./models/userModels")
 require("./config/initDB")
 
-const app = express();
+const app =express();
 const server = httpServer.createServer(app)
 app.use(cors());
 app.use(express.json())
